@@ -30,7 +30,7 @@ if (!isset($_SESSION["username"])) {
     <style>
 
         body {
-            font-family: Arial, sans-serif;
+            font-family: Verdana, sans-serif;
             margin: 0;
             background-color: #f4f4f4;
         }
@@ -42,7 +42,7 @@ if (!isset($_SESSION["username"])) {
         */
 
         .navbar {
-            background-color: #0077cc;
+            background-color: #2e8b57;
             padding: 15px;
         }
 

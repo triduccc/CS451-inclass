@@ -112,7 +112,7 @@ $stmt->close();
     <style>
 
         body {
-            font-family: Arial, sans-serif;
+            font-family: Verdana, sans-serif;
             margin: 0;
             background-color: #f4f4f4;
         }
@@ -124,7 +124,7 @@ $stmt->close();
         */
 
         .navbar {
-            background-color: #0077cc;
+            background-color: #2e8b57;
             padding: 15px;
         }
 
@@ -177,7 +177,7 @@ $stmt->close();
             border: none;
             border-radius: 5px;
 
-            background-color: #0077cc;
+            background-color: #2e8b57;
             color: white;
 
             cursor: pointer;

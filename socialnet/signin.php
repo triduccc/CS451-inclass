@@ -78,7 +78,7 @@ $conn->close();
     <style>
 
         body {
-            font-family: Arial, sans-serif;
+            font-family: Verdana, sans-serif;
             background-color: #f4f4f4;
 
             display: flex;
@@ -122,14 +122,14 @@ $conn->close();
             border: none;
             border-radius: 5px;
 
-            background-color: #0077cc;
+            background-color: #2e8b57;
             color: white;
 
             cursor: pointer;
         }
 
         button:hover {
-            background-color: #005fa3;
+            background-color: #0077cc;
         }
 
         .message {
