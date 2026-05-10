@@ -78,25 +78,20 @@ sudo systemctl restart nginx
 
 ## Accessing the Application
 
-
-
-asdfa
-
-
-
+Default page:
 
 ```text
-http://localhost/socialnet/signin.php
+http://<your-ip>
 ```
 
 Admin page:
 ```text
-http://localhost/admin/newuser.php
+http://<your-ip>/admin/newuser.php
 ```
 
 ---
 
-# Part 2: Application Features
+# Application Features
 
 ## Admin Page
 
@@ -250,11 +245,4 @@ Columns:
 - password
 - description
 
----
 
-# Additional Notes
-
-- Passwords are stored using PHP password hashing.
-- Prepared statements are used for database queries.
-- Session validation is implemented for protected pages.
-- The application uses PHP sessions for authentication and access control.
