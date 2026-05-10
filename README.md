@@ -47,7 +47,7 @@ cd <repository-folder>
 
 The repository contains a file named `db.sql`.
 
-Run the following command to create:
+Run the following command in the repo folder to create:
 - database
 - MySQL user
 - required tables
