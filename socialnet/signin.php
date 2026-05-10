@@ -6,10 +6,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-$servername = "localhost";
-$username = "duc";
-$password = "duc692005";
-$dbname = "socialnet";
+require_once "../socialnet/config.php";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
