@@ -14,7 +14,7 @@ The application allows users to:
 
 ---
 
-# Part 1: Setup Instructions
+# Setup Instructions
 
 ## Requirements
 
@@ -58,18 +58,6 @@ sudo mysql < db.sql
 
 ---
 
-## Project Location
-
-Place the project folder inside the Nginx web directory.
-
-Example:
-
-```bash
-sudo cp -r socialnet /var/www/
-```
-
----
-
 ## Nginx Configuration
 
 Configure Nginx so the application can be accessed from the browser.
@@ -90,14 +78,18 @@ sudo systemctl restart nginx
 
 ## Accessing the Application
 
-SignIn page:
+
+
+asdfa
+
+
+
 
 ```text
 http://localhost/socialnet/signin.php
 ```
 
 Admin page:
-
 ```text
 http://localhost/admin/newuser.php
 ```
