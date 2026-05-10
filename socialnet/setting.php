@@ -24,10 +24,7 @@ if (!isset($_SESSION["username"])) {
 |--------------------------------------------------------------------------
 */
 
-$servername = "localhost";
-$username = "duc";
-$password = "duc692005";
-$dbname = "socialnet";
+require_once "config.php";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 

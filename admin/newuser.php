@@ -4,10 +4,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-$servername = "localhost";
-$username = "duc";
-$password = "duc692005";
-$dbname = "socialnet";
+require_once "../socialnet/config.php";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -69,7 +66,7 @@ $conn->close();
 
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: Verdana, sans-serif;
             background-color: #f4f4f4;
 
             display: flex;
@@ -110,7 +107,7 @@ $conn->close();
             margin-top: 15px;
 
             border: none;
-            background-color: #0077cc;
+            background-color: #5c5740;
             color: white;
 
             border-radius: 5px;
